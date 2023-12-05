@@ -1,0 +1,80 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container-home {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: rgb(122, 184, 235);
+    width: 240px;
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.sidebar .header .ilustration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.sidebar .main .list-item .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+    
+}
+
+.sidebar .main .list-item .icon {
+    margin-right: 12px;
+}
+
+.sidebar .main .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 15px;
+    transition: all ease-in-out .2s;
+}
+
+.sidebar .main .list-item:hover {
+    background: #5271ff;
+    transition: all ease-in-out .3s;
+}
+
+.sidebar .main .list-item a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.main-content .isi-content {
+    padding: 15px;
+}
+
+.home-center {
+    text-align: center;
+}
+.isi-content p {
+    font-size: 20px;
+}
+
+.slide-img {
+    width: 500px; height: 300px;
+    align-items: center;
+}

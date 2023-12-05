@@ -1,0 +1,70 @@
+<form action="" method="POST">
+    <table>
+        <tr>
+            <td>ID Pasien : </td>
+            <td> <input type="text" id="nama" name="idPasien" class="form-control" placeholder="">
+            </td>
+        </tr>
+        <tr>
+            <td>Nama : </td>
+            <td><input type="text" id="nama" name="nama" class="form-control" placeholder="">
+            </td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin : </td>
+            <td>
+
+                <input type="radio" id="cowok" class="form-check-input" name="kelamin"
+                    value="Laki-laki">
+                <label for="cowok" class="form-check-label">laki-laki</label>
+
+
+                <input type="radio" id="cewek" class="form-check-input" name="kelamin"
+                    value="Perempuan">
+                <label for="cewek">perempuan</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Tanggal CheckUp : </td>
+            <td><input type="date" name="tanggalLahir" class="form-control" id="tanggal-lahir">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Pelayanan : </td>
+            <td>
+                <input type="radio" id="cowok" class="form-check-input" name="pelayanan"
+                    value="konsultasi dokter">
+                <label for="cowok" class="form-check-label">Konsultasi Dokter</label>
+
+
+                <input type="radio" id="cewek" class="form-check-input" name="pelayanan"
+                    value="pelayanan obat">
+                <label for="cewek">Pelayanan Obat</label>
+
+                <!-- <input type="checkbox" id="konsultasiDokter" name="pelayanan[]"
+                    value="Konsultasi Dokter">
+                <label for="html">konsultasi Dokter</label>
+                <input type="checkbox" id="PelayananObat" name="pelayanan[]" value="Pelayanan Obat">
+                <label for="CSS">Pelayanan Obat</label>
+                <input type="checkbox" id="RawatInap" name="pelayanan[]" value="Rawat Inap">
+                <label for="javascript">Rawat Inap</label> -->
+            </td>
+        </tr>
+        <tr>
+            <td>Domisili : </td>
+            <td>
+                <select name="domisili" id="domisili">
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Bogor">Bogor</option>
+                    <option value="Depok">Depok</option>
+                    <option value="tanggerang">Tanggerang</option>
+                    <option value="Bekasi">Bekasi</option>
+                    <option value="Luar JABODETABEK">Luar JABODETABEK</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" name="tambah">
+</form>
+
